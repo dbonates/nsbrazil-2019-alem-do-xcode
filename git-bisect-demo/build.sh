@@ -9,6 +9,8 @@ git commit -m "initial commit"
 # build the first core doc
 MAX=44
 COCOMAN=$((RANDOM%${MAX}))
+VERSION=1
+VERSION_STEP=10
 
 for (( i=1; i<=$MAX; i++ ))
   do
@@ -24,6 +26,10 @@ for (( i=1; i<=$MAX; i++ ))
     fi
     git add .
     git commit -m "repeating number $i"
+    if (($i%$VERSION_STEP==0)); then
+      commitVersion=$((i/VERSION_STEP))
+      git tag "v$commitVersion.0"
+    fi
   done
   
 
