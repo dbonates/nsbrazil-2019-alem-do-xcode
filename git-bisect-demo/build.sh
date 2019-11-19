@@ -7,10 +7,9 @@ git add .
 git commit -m "initial commit"
 
 # build the first core doc
-MAX=44
+MAX=25
 COCOMAN=$((RANDOM%${MAX}))
-VERSION=1
-VERSION_STEP=10
+VERSION_STEP=5
 
 for (( i=1; i<=$MAX; i++ ))
   do
