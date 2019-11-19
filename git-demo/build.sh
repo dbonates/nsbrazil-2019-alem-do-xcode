@@ -7,15 +7,23 @@ git add .
 git commit -m "initial commit"
 
 # build the first core doc
-for i in {1..10}
+MAX=44
+COCOMAN=$((RANDOM%${MAX}))
+
+for (( i=1; i<=$MAX; i++ ))
   do
-    if [ "$i" -eq "4" ]; then
-      echo "3" >> example.md
+    if [ "$i" -eq "$COCOMAN" ]; then
+      echo "BLEBS" >> example.md
     else
-      echo "$i" >> example.md
+      str=""
+      for (( c=1; c<=$i; c++ ))
+      do
+        str+="$i"
+      done
+      echo $str >> example.md
     fi
     git add .
-    git commit -m "added number $i"
+    git commit -m "repeating number $i"
   done
   
 
