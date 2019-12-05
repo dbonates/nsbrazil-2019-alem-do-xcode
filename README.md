@@ -9,7 +9,7 @@ Conteúdo da talk Da Conferência NSBrazil, conferência dedicada à plataforma 
 
 ### embrulha e manda
 - [https://speakerdeck.com/dbonates/pare-de-apertar-parafuso](https://speakerdeck.com/dbonates/pare-de-apertar-parafuso)
-- [https://bonates.com/nsbrazil19/nsbrazil19-alem-do-xcode](https://bonates.com/nsbrazil19/nsbrazil19-alem-do-xcode)
+- [https://bonates.com/nsbrazil19/nsbrazil19-alem-do-xcode](https://bonates.com/nsbrazil19/nsbrazil-2019-alem-do-xcode/html/nsbrazil19-alem-do-xcode/)
 
 ### sources no keynote (sem cortes, sem sensura por conta do tempo e incluindo outros formatos):
 - [https://github.com/dbonates/nsbrazil-2019-alem-do-xcode](https://github.com/dbonates/nsbrazil-2019-alem-do-xcode)
